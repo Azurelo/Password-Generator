@@ -12,8 +12,8 @@ function getPasswordCriteria(){
   var passwordLength = prompt("Enter a password length: ");
 
   //creating a loop to make sure user enters the desired number for password length
-  while((passwordLength < 8 || passwordLength > 126) || (isNaN(passwordLength))){
-    passwordLength = prompt("Enter a password length in the range of 8 to 126 (inclusive) using numbers: ");
+  while((passwordLength < 8 || passwordLength > 128) || (isNaN(passwordLength))){
+    passwordLength = prompt("Enter a password length in the range of 8 to 128 (inclusive) using numbers: ");
   }
 
   var ChoseNum = confirm("Do you want numbers in your password?");
